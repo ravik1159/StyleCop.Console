@@ -11,7 +11,7 @@ jobs:
   Build-and-Deploy:
     runs-on: windows-latest
     env:
-      DOTNET_VERSION: '7.0.x'
+      DOTNET-VERSION: '7.0.x'
       SOLUTIONPATH: 'StyleCop.Console/StyleCop.sln'
     steps:
 
