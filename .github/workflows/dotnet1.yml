@@ -18,9 +18,9 @@ jobs:
       with:
         #dotnet-version: 5.0.x
         SOLUTIONPATH: 'StyleCop.Console/StyleCop.sln'
-    - name: Restore dependencies
-      run: dotnet restore
+    #- name: Restore dependencies
+      #run: dotnet restore
     - name: Build
-      run: dotnet build StyleCop.Console/StyleCop.sln --configuration Release
+      run: dotnet build StyleCop.Console/StyleCop.sln
     - name: Test
       run: dotnet test --no-build --verbosity normal
