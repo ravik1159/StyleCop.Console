@@ -12,7 +12,7 @@ jobs:
     runs-on: windows-latest
     env:
       #DOTNET_VERSION: '6.0.100'
-      SOLUTIONPATH: '.sln'
+      SOLUTIONPATH: 'StyleCop.Console/StyleCop.sln'
     steps:
 
  #Checkout  repository
